@@ -46,3 +46,11 @@ JSONの構造
 ]
 中身はlist→dict型になっている
 さらにnamesの中身もlist→dict型になっている
+
+参考URL：https://products.sint.co.jp/topsic/blog/json
+https://qiita.com/youwht/items/7f5686a30eed16864954
+https://qiita.com/ku_a_i/items/93fdbd75edacb34ec610
+https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html
+https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html
+https://office54.net/python/tkinter/tkinter-ttk-difference
+https://kuroro.blog/python/vgx53M7D1d6C0R8ejp0V/
