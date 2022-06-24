@@ -1,0 +1,48 @@
+こっちでもできるかも
+JavaScript + Electron 
+
+
+今回はこっちを使う
+Python + Tikinter + Pyinstaller
+
+
+
+pyperclipによるクリップボード操作
++
+EXEの作成はPyinstaller
+
+pythonで辞書検索する機能
+クリップボードにコピーした内容を読み込み表示する
+exeファイル化する
+
+辞書はJSONで保存＆読み込む
+
+JSONの構造
+[
+	{	
+	 id:1
+	 bui:hukubu
+	 names:{
+		name:zensin
+		bikou:頭から足まで
+		},
+		{
+		name:zensin
+		bikou:頭から足まで
+		}
+	},
+	{
+	 id:2
+	 bui:kyoubu
+	 names:{
+		name:zensin
+		bikou:頭から足まで
+		},
+		{
+		name:zensin
+		bikou:頭から足まで
+		}
+	}
+]
+中身はlist→dict型になっている
+さらにnamesの中身もlist→dict型になっている
