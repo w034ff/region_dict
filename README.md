@@ -88,7 +88,7 @@ excel等で文章データをアノテーションする際、わからない単
 7. 以下のコマンドでregion_dict.pyをexeファイルにする
 
     ```
-    pyinstaller --add-data="region_dict.json;." --add-data="settings.ini;." --add-data="icons8-book-96.ico;." --icon=icons8-book-96.ico --noconsole region_dict.py --onefile 
+    pyinstaller --add-data "src\\assets\\*;assets" --icon=src\\assets\\icons8-book-96.ico --noconsole src\\region_dict.py --onefile
     ```
 
     - `--onefile`: 実行に必要なファイルを１つにまとめてexeファイルを生成します。その場合、JSONファイル等は直接編集できなくなります。
